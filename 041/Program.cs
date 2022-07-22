@@ -5,8 +5,7 @@ int [] a=new int[n];
 Random random=new Random();
 int min = 100;
 int max = 0;
-    for (int i = 0; i < n; i++)
-        {
+    for (int i = 0; i < n; i++){
             a[i] = random.Next(0, 101);
             System.Console.Write($"{a[i], 4}");
         }

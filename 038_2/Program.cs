@@ -1,6 +1,7 @@
 ﻿// В одномерном массиве из 123 чисел найти количество элементов из отрезка [10,99]
 Console.WriteLine("Введите размер массива: ");
-int n=int.Parse(Console.ReadLine());
+string? s = Console.ReadLine();
+int n = Convert.ToInt32(s);
 int [] a=new int[n];
 Random random=new Random();
     for (int i = 0; i < n; i++)
